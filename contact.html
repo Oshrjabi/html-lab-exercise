@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Contact">
+<title>Contact</title>
+</head>
+
+<body>
+
+<header><h1>Contact Me</h1></header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="academic.html">Academic</a></li>
+<li><a href="projects.html">Projects</a></li>
+</ul>
+</nav>
+
+<main>
+
+<form action="#" method="post">
+<fieldset>
+<legend>Contact Form</legend>
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"
+style="border:2px solid black; padding:5px; font-size:14px;"
+placeholder="Your name" required maxlength="50"><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"
+style="background-color:lightgray;" required><br><br>
+
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone"><br><br>
+
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" min="1" max="100"><br><br>
+
+<label for="date">Date:</label>
+<input type="date" id="date" name="date"><br><br>
+
+<label for="range">Satisfaction:</label>
+<input type="range" id="range" name="range"><br><br>
+
+<label for="subject">Subject:</label>
+<select id="subject" name="subject">
+<optgroup label="General">
+<option>Question</option>
+<option>Feedback</option>
+</optgroup>
+<optgroup label="Technical">
+<option>Bug</option>
+<option>Support</option>
+</optgroup>
+</select><br><br>
+
+<p>Interests:</p>
+<input type="checkbox" name="interest"> Coding
+<input type="checkbox" name="interest"> Sports
+<input type="checkbox" name="interest"> Music<br><br>
+
+<p>Gender:</p>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other<br><br>
+
+<label for="msg">Message:</label><br>
+<textarea id="msg" name="msg"
+style="border:1px solid gray; font-size:14px;"></textarea><br><br>
+
+<button type="submit"
+style="background-color:blue; color:white; padding:10px;">
+Submit
+</button>
+
+</fieldset>
+</form>
+
+</main>
+
+<footer>
+<address>Email: omar@email.com</address>
+</footer>
+
+</body>
+</html>
