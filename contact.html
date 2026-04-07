@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="description" content="Contact">
 <title>Contact</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -17,6 +19,7 @@
 <li><a href="skills.html">Skills</a></li>
 <li><a href="academic.html">Academic</a></li>
 <li><a href="projects.html">Projects</a></li>
+<a href="contact.html" class="active">Contact</a>
 </ul>
 </nav>
 
@@ -28,12 +31,10 @@
 
 <label for="name">Name:</label>
 <input type="text" id="name" name="name"
-style="border:2px solid black; padding:5px; font-size:14px;"
 placeholder="Your name" required maxlength="50"><br><br>
 
 <label for="email">Email:</label>
-<input type="email" id="email" name="email"
-style="background-color:lightgray;" required><br><br>
+<input type="email" id="email" name="email"><br><br>
 
 <label for="phone">Phone:</label>
 <input type="tel" id="phone" name="phone"><br><br>
@@ -70,11 +71,10 @@ style="background-color:lightgray;" required><br><br>
 <input type="radio" name="gender"> Other<br><br>
 
 <label for="msg">Message:</label><br>
-<textarea id="msg" name="msg"
-style="border:1px solid gray; font-size:14px;"></textarea><br><br>
+<textarea id="msg" name="msg"></textarea><br><br>
 
-<button type="submit"
-style="background-color:blue; color:white; padding:10px;">
+<button type="submit">
+
 Submit
 </button>
 
